@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.form-container {
+  width: 420px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin: 15px 30px;
+}
+
+.form-group i {
+  position: absolute;
+}
+
+.icon {
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  min-width: 50px;
+  text-align: center;
+}
+
+.form-group input {
+
+  width: 100%;
+
+  padding: 8px 40px;
+  background-color: #dbcece;
+  font-size: 16px;
+  border: 1px solid #817c7c;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+.submit-btn {
+  padding: 50px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: rgb(119, 110, 169);
+  background: linear-gradient(103deg, rgba(119, 110, 169, 1) 35%, rgba(41, 19, 180, 1) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 5px 3px rgb(55, 54, 54);
+}
+
+.submit-btn:hover {
+  background-color: #4565a0;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.click-btn button {
+  margin-top: 200px;
+  text-decoration: solid black;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  width: 100%;
+  padding: 1px;
+  background-color: red;
+}
+
+.login-page,
+.signup-page {
+  background: rgb(135, 116, 242);
+  background: linear-gradient(180deg, rgba(135, 116, 242, 1) 35%, rgba(102, 80, 241, 1) 100%);
+}
+
+.home-page {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(166deg, rgba(255, 255, 255, 1) 35%, rgba(137, 138, 246, 1) 100%);
+}
+
+.welcome-page {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 16%, rgba(175, 203, 250, 1) 70%, rgba(145, 155, 244, 1) 100%);
+}
+
+.form {
+  margin: 15px 35%;
+
+}
+
+.p-login {
+  color: rgb(84, 84, 84);
+  font-size: 14px !important;
+  text-align: center;
+}
